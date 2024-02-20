@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JL</title>
+  <style>
+    * {
+      margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #151618;
+}
+
+.images-container{
+    display: flex;
+}
+
+.image-card{
+    width: 240px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: -8px 8px 24px #0000004f;
+    transition: .3s linear;
+}
+
+.image-card img{
+    width: 100%;
+}
+
+.image-card:not(:first-child){
+    margin-left: -50px;
+}
+
+.image-card:hover{
+    transform: translateY(-24px);
+}
+
+.image-card:hover ~ .image-card{
+    transform: translateX(60px);
+}
+
+
+
+
+  </style>
+</head>
+<body>
+  <div class="images-container">
+    <div class="image-card"><img src="1.jpg" alt=""></div>
+    <div class="image-card"><img src="2.jpg" alt=""></div>
+    <div class="image-card"><img src="3.jpg" alt=""></div>
+    <div class="image-card"><img src="4.jpg" alt=""></div>
+  </div>
+  
+</body>
+</html>

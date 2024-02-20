@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>My website</title>
+</head>
+<body>
+
+    <h2>Link to YouTube below</h2>
+    <hr>
+    <a href="mailto:jonatanlamberg@icloud.com" target="_blank" title="this take you to youtube"> 
+        Email Me
+    </a>
+    
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>The Walking Dead</title>
+<head>
+<body>
+    <a href="https://en.wikipedia.org/wiki/Rick_Grimes" target="_blank" title="Tap to get info about rick">
+    <button><h1>Rick Grimes</h1></button>
+    </a>
+    <hr>
+    <video controls autoplay src="/videos/rickvid.mp4"> 
+    <a href="https://www.youtube.com/watch?v=gwPipwcWgK4&ab_channel=ClashedPR" target=_blank title="Link to video"
+    <button><h1>Vid of Rick</h1></button>
+    </a>
+  
+
+    
+    
+
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>My website</title>
+</head>
+<body>
+    <!--text formatting tags-->
+
+    <p>This is a text</p>
+    <p>This is a text</p>
+    <p>This is a text</p>
+    <p>This is a <b>text</b></p>
+    <p>This is a <i>text</i></p>
+    <p>This is a <big>text</big></p>
+    <p>This is a <small>text</small></p>
+    <p>This is a <del>text</del></p>
+    <p>This is a <sub>text</sub></p>
+    <p>This is a <sup>text</sup></p>
+    <p>This is a <mark>text</mark></p>
+
+
+
+</body>
+</html>
+
+
+
+# lists
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>My website</title>
+</head>
+<body>
+<!--list 1-->
+    <h4>Unoredered list</h4>
+    <ul>
+        <li>Pizza dough</li>
+        <li>tomato sauce</li>
+        <li>toppings</li>
+    </ul>
+<!--list 2-->
+    <h4>ordered list</h4>
+    <ol type="A">
+        <li>shower</li>
+        <li>eat</li>
+        <li>brush teeth</li>
+        <li>drive to work</li>
+    </ol>
+<!--list 3-->
+    <h4>description list</h4>
+    <dl>
+        <dt><mark>HTML</mark></dt>
+        <dd>This adds structure</dd>
+        <dt><mark>CSS</mark></dt>
+        <dd>This adds style</dd>
+        <dt><mark>JAVASCRIPT</mark></dt>
+        <dd>This adds functionality</dd>
+    </dl>
+
+
+
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Games of 2023</title>
+    <style>
+        /* Add your CSS styles here */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Best Games of 2023</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#game1">Game 1</a></li>
+                <li><a href="#game2">Game 2</a></li>
+                <li><a href="#game3">Game 3</a></li>
+                <!-- Add more game links as needed -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to the Best Games of 2023</h2>
+            <p>Explore the top games that defined the gaming scene in 2023.</p>
+        </section>
+
+        <section id="game1">
+            <h2>Game 1</h2>
+            <p>Description of Game 1 goes here.</p>
+            <p><a href="#home">Back to Home</a></p>
+        </section>
+
+        <section id="game2">
+            <h2>Game 2</h2>
+            <p>Description of Game 2 goes here.</p>
+            <p><a href="#home">Back to Home</a></p>
+        </section>
+
+        <section id="game3">
+            <h2>Game 3</h2>
+            <p>Description of Game 3 goes here.</p>
+            <p><a href="#home">Back to Home</a></p>
+        </section>
+        <!-- Add more sections for additional games -->
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Best Games. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>My shop</title>
+</head>
+<body>
+
+    <h2 align="center">Öppettider</h2>
+
+    <table bgcolor="black" align="center" width="700">
+        <tr bgcolor="green">
+            <th width="100">Måndag</th>
+            <th width="100">Tisdag</th>
+            <th width="100">Onsdag</th>
+            <th width="100">Torsdag</th>
+            <th width="100">Fredag</th>
+            <th width="100">Lördag</th>
+            <th width="100">Söndag</th>
+        </tr>
+        <tr bgcolor="" align="center">
+            <td>9-22</td>
+            <td>9-22</td>
+            <td>9-22</td>
+            <td>8-18</td>
+            <td>8-18</td>
+            <td>Stängt</td>
+            <td>Stängt</td>
+        </tr> 
+    </table>
+
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <style>
+        .container {
+    display: flexbox;
+    background-color: #e6dddd;
+    border: 1px solid #000000;
+    width: 300px;
+    border-radius: 40px;
+    height: 600px;
+    padding: 15px;
+    
+    position: sticky;
+    top: 15px;
+    bottom: 20px;
+}
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        hello ssssssssssssssssssssssssssssssssssssssssssssssssssss
+    </div>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Color Changer</title>
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+
+  .cool-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 30px;
+    background-color: #0602ff;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+
+  .cool-button:hover {
+    transform: scale(1.05);
+  }
+</style>
+</head>
+<body>
+
+<button class="cool-button" onclick="changeBackgroundColor()">Click Me!</button>
+
+<script>
+  function changeBackgroundColor() {
+    
+    var red = Math.floor(Math.random() * 256);
+    var green = Math.floor(Math.random() * 256);
+    var blue = Math.floor(Math.random() * 256);
+
+    
+    document.body.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
+  }
+</script>
+
+</body>
+</html>
+
+
+backgroundColor 27282c
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My website</title>
+  <style>
+    .container1 {
+      border: 1px solid;
+      width: 300px;
+      height: 600px;
+      border-radius: 40px;
+      border-color: rgb(178, 16, 199);
+      padding: 15px;
+      align-content: center;
+      justify-content: center;
+      cursor: pointer;
+      margin: auto;
+      margin-top: 50px; 
+      box-shadow: -6px 6px 20px #27282c;
+      border-width: thick;
+      transition: 0.3s linear;
+      
+      
+
+    }
+
+    .container {
+      border: 1px solid;
+      width: 325px;
+      height: 150px;
+      border-radius: 40px;
+      display: grid;
+      align-content: center;
+      justify-content: center;
+      cursor: pointer;
+      margin: auto;
+      margin-top: 10px;
+      border-color: rgb(178, 16, 199);
+      border-width: thick;
+      transition: 0.3s linear;
+
+      
+      
+    }
+
+    .body {
+      align-items: center;
+      justify-content: center;
+
+    }
+
+    .container1:hover {
+      transform: translateY(-24px);
+      transition: 0.35s;
+      box-shadow: -6px 6px 20px #27282c;
+
+    }
+
+    .container:hover {
+      transform: translateX(-24px);
+      transition: 0.35s;
+    }
+  </style>
+</head>
+<body bgcolor="#27282c">
+
+  
+  
+  <div class="container1">
+    
+  </div>
+  <div class="container">
+    
+  </div>
+
+  <script>
+  </script>
+</body>
+</html>
